@@ -93,6 +93,7 @@ li {
     text-align: center;
     border: none; 
     color: #7342d6;
+    display: none;
  }
 
  .menu__backdrop {
@@ -402,4 +403,15 @@ HIGHLIGHTS
     
     .footer__link {
         padding: 0 8px;
+    }
+
+    @media (max-width: 550px) {
+        .nav-links {
+            display: none;
+        }
+    
+
+    .btn__menu {
+        display: block;
+    }
     }
