@@ -27,13 +27,13 @@
                     </button>
                     <ul class="menu__links">
                         <li class="menu__list">
-                            <a href="#" class="menu__link">Home</a>
+                            <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
                         </li>
                         <li class="menu__list">
-                            <a href="#features" class="menu__link">Books</a>
+                            <a href="#features" class="menu__link" onclick="closeMenu()">Books</a>
                         </li>
                         <li class="menu__list">
-                            <a href="#" class="menu__link no-cursor">Contacts</a>
+                            <a href="#" class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
                         </li>
                         </ul>
                     </div>
@@ -44,7 +44,9 @@
             <div class="header__description">
                 <h1>Mantuas' Most awarded Online Library platform</h1>
                 <h2>Find your next <span class="purple">Billion Dollar Book Idea</span></h2>
-                <button class="btn">Browse Books</button>
+                <a href="#features">
+                  <button class="btn">Browse Books</button>
+               </a>
             </div>
             <figure class="header__img--wrapper">
               <img src="./E-commerce Resources/assets/Undraw_Books.svg" alt="book stack">
